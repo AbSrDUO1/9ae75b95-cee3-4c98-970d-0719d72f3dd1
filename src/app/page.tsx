@@ -10,7 +10,7 @@ import FooterLogo from '@/components/footer/FooterLogo';
 export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: "slide" }}>
-      <NavbarBase logoSrc="/images/logo.svg" logoAlt="xeven logo" logoText="xeven" className="bg-transparent" buttonText="Shop Now" onLeftButtonClick={() => {}} onRightButtonClick={() => {}} />
+      <NavbarBase logoSrc="/images/logo.svg" logoAlt="xeven logo" leftButtonText="Menu" rightButtonText="Contact" onLeftButtonClick={() => {}} onRightButtonClick={() => {}} className="bg-transparent" />
 
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero title="Welcome to xeven" subtitle="Your guide to a no-stress t-shirt buying experience" contractAddress="0x123456789" copyButtonText="Copy Code" copiedText="Code Copied!" />
